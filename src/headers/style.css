@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* Header 1 */
+
 .logo-1 {
     font-family: sans-serif;
 }
@@ -63,5 +65,50 @@
     height: 10px;
     background-color: #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+/* Fim do Header 1 */
+
+/* Header 2 */
+.header-login {
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .logo-2 {
+        margin-left: 2rem;
+        width: 80px;
+    }
+
+    & nav {
+        margin-right: 2rem;
+    }
+
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+
+        & input {
+            height: 20px;
+            padding: 6px;
+            width: 240px;
+            border: 2px solid black;
+            border-radius: 1rem;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        & button {
+            border: none;
+        }
+
+        & button:hover {
+            cursor: pointer;
+        }
+    }
+
 }
