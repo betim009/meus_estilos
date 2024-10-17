@@ -1,0 +1,45 @@
+.dashboard-1 {
+    border: 1px solid black;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+
+span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.bar {
+    border: 2px solid #7c7c7c;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.bar-1 {
+    background-color: rgba(0, 128, 0, 0.631);
+    width: 60%;
+}
+
+.bar-2 {
+    background-color: rgba(0, 15, 128, 0.631);
+    width: 25%;
+}
+
+.bar-3 {
+    background-color: rgba(208, 214, 16, 0.631);
+    width: 15%;
+}
+
+.escala {
+    width: 600px;
+    background-color: #ededed;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
