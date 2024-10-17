@@ -21,6 +21,12 @@ span {
     align-items: center;
 }
 
+.value {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
 .bar-1 {
     background-color: rgba(0, 128, 0, 0.631);
     width: 60%;
